@@ -22,10 +22,47 @@ body {
 }
 
 #inputs {
-  width: 160px;
+  /*width: 160px;*/
   padding: 10px;
   min-height: 50px;
-  display: block;
+  display: inline-block;
   border: 2px solid rgb(70, 70, 70);
   margin: 5px auto;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.inp {
+  width: 50px;
+  background-color: #222;
+  color: #464646;
+  border: 0px solid #464646;
+  padding: 0px;
+  margin-bottom: 5px;
+}
+
+.dn {
+  width: 82px;
+  float: left;
+}
+
+button {
+  background-color: #2b2b2b;
+  padding: 4px 9px 5px;
+  color: #464646;
+  padding: 5px;
+  border-radius: 7px;
+  border: 2px solid #464646;
+  margin: 5px 0px 5px 10px;
+  float: right;
+}
+
+button:hover {
+  background-color: #464646;
+  color: #222;
+}
+
+hr {
+  color: #464646;
 }
